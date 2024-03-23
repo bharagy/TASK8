@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+#logo{
+    width: 80px;
+}
+.icons{
+    color: gray;
+}
+.fas{
+    color: black;
+}
+form{
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+}
+input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+    box-shadow: 0 5px 8px 3px black;
+}
+input:focus{
+    outline: none;
+}
+button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    border-radius: 30%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+button i{
+    color: rgb(93, 94, 95);
+}
+button:hover i{
+    color: rgb(162, 163, 163);
+}
+.header{
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(htlimg.avif);
+    background-size: cover;
+    background-position: center;
+    margin: -120px 0 0 0;
+
+}
+.header nav{
+    background-color: rgb(0, 110, 255);
+    margin: 120px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+.dropdown-menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown-menu li{
+    width: 150px;
+    padding: 10px;
+}
+.dropdown ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: black;
+}
+.signup-btn{
+    background: orange;
+    color: black;
+    padding: 2px 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.myaccount-btn{
+    background: orange;
+    color: black;
+    padding: 2px 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.content{
+    margin-top: -20%;
+    margin-bottom: -10%;
+
+}
+h1{
+    font-size: large;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    text-align: left;
+    padding: 10px -50%;
+    margin-left: 50%;
+    margin-right: 10%;
+
+}
+h2{
+    font-size: large;
+    color: white;
+    background-color: cadetblue;
+    text-align: left;
+    padding: 25px;
+    margin-left: 50%;
+    margin-right: 20%;
+    font-weight: 400;
+    width: 300px;
+    height: 80px;
+    
+
+}
+.sbar{
+    background: #fff;
+    width: 100%;
+    height: 100px;
+    margin: 1% 0 ;
+    padding: 10px;
+    border: black;
+    box-shadow: 5px 5px 3px 5px black;
+    justify-content: space-between;
+}
+.sbar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.sbar form div input{
+    display: flex;
+    border: 0;
+    outline: none;
+    width: 90%;
+    height: 50px;
+}
+.sbar form button{
+    background: orange;
+    border: 1px solid black;
+    box-sizing: inherit;
+    max-width: 200px;
+    outline: none;
+    cursor: pointer;
+}
+.sbar form div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont{
+    margin: 10% 10%;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.boxes img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    transition: 400ms;
+}
+.boxes1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.boxes1 img{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 40px;
+    transition: 400ms;
+}
+.box h5{
+    margin-left: 10px;
+    
+}
+.box1 h6{
+    margin-left: 10px;
+}
+.box2 h7{
+    margin-left: 20px;
+}
+.box3 h1{
+    margin: -40% 50px;
+    background-color: none;
+    color: white;
+    padding: 10px;
+}
+.box4 h1{
+    margin: -40% 50px;
+    background-color: none;
+    color: white;
+    padding:10px 100px;
+    font-size: large;
+}
+.cont-1{
+    border: 1px solid gray;
+    margin: 30% 50px;
+    padding: 30px;
+    font-size: x-large;
+    display: flex;
+}
+.cont2{
+    margin-top: -20%;
+    margin-left: 80px;
+    width: 1100px;
+    height: 400px;
+    background-color: 10px solid gray;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+
+}
+.cont3{
+    margin-top: -27%;
+    margin-left: 80px;
+    width: 1190px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-brands fa-facebook{
+    margin-left: 20px;
+}
+.cont3 placeholder{
+    padding: -5% 0;
+}
+.cont3 label{
+    background: 0 solid blue;
+    color: black;
+    margin-right: -1%;
+}
+.cont4{
+    width: 500px;
+    margin-top: 7%;
+    margin-left: 80px;
+    font-weight: lighter;
+}
+
+
+
+
+
